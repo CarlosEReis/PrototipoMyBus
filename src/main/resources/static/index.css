@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  text-decoration: none;
+}
+html, body{
+  height: 100%;
+}
+h1{
+  margin-top: 0;
+  padding-top: .3em;
+  text-align: center;
+}
+
+.containerx{
+  position: relative;
+  height: 100%;
+}
+.sidebarx {
+  background-color: #F8F8F8;
+  width:450px;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 0px;
+  left: 450px;
+  height: 100%;
+}
+.caixa-pesquisa {
+  position: relative;
+  background-color: #fff;
+  border-bottom: 5px solid #2a5198;
+  height: 200px;
+}
+.icon-search i{
+	color: #cf3234 !important;
+}
+nav{
+  background-color: #f3f3f3;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid;
+}
+.caixa-linhas {
+  position: relative;
+}
+.collection{
+  margin: 0;
+  overflow: auto;
+  height: 787px;
+}
+
+.collection-item{
+  float: right;
+}
+.link-linha{
+	width: 100% !important;
+	border-bottom: 1px solid #f7f0f0 !important;
+}
+.linha a{
+  color: #2a5198 !important;
+  cursor: pointer;
+}
+.numero-linha{
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #2a5198 !important;
+}
+
+::-webkit-input-placeholder {
+   color: #cf3234;;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #cf3234;;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #cf3234;;  
+}
+
+:-ms-input-placeholder {  
+   color: #cf3234;;  
+}
